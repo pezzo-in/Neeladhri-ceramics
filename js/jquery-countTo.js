@@ -63,7 +63,7 @@ Written by: 	Matt Huggins - https://github.com/mhuggins/jquery-countTo
 
 			function render(value) {
 				var formattedValue = settings.formatter.call(self, value, settings);
-				$self.html(formattedValue);
+				$self.html(formattedValue+"&#43;");
 			}
 		});
 	};
