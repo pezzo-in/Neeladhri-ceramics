@@ -12,7 +12,7 @@
     $htmlmessage 	= <<<MESSAGE
     <html>
     	<head>
-     		<title>Request from :: Alpine :: Responsive One Page HTML5/CSS3 Parallax Site Template</title>
+     		<title>Request from Neeladhri ceramics website</title>
     	</head>
 	    <body>
 	      <style>body {font: 12px/1.2em Verdana}</style>
