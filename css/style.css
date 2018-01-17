@@ -650,15 +650,15 @@ div.mc-image {
 
 #ajaxpage .section-title h1 {
     font-size: 60px;
-	color:#ffffff;
+    color: #ffffff;
 }
 
 #ajax-section {
-    position:fixed;
-    background: rgba(0,0,0,0.9);
-	z-index:10;
-	top:0;
-	width:100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+    top: 0;
+    width: 100%;
     text-align: left;
 }
 
@@ -1800,4 +1800,40 @@ footer .social-icon a:hover {
     text-align: center;
     position: relative;
     display: inline-block;
+}
+
+.offer-1217 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+}
+.offer-1217 .offer-img {
+    width: 70%;
+    left: 50%;
+    position: absolute;
+    top: 25%;
+    margin-left: -35%;
+}
+.offer-1217 .offer-img img {
+    width: 100%;
+}
+.offer-close {
+    position: absolute;
+    background: #D77734;
+    color: #fff;
+    top: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: 21px;
+    cursor: pointer;
 }

@@ -4,6 +4,10 @@ $(window).load(function() {
 	$(".mask").delay(1000).fadeOut("slow");
 });
 
+$('.offer-close').click(function(){
+	$(this).parent().parent().hide();
+});
+
 $(document).ready(function() {
 
 	// Contact Form Request
